@@ -1,0 +1,51 @@
+.sidebarChat{
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1 px solid #f6f6f6;
+}
+
+.sidebarChat:hover{
+  background-color: #ebebeb;
+}
+.sidebarChat__info{
+  margin-left: 15px;
+}
+.sidebarChat__info>h2{
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebarChat__info{
+  margin-left: 15px;
+}
+.sidebarChat__add{
+  padding: 20px;
+}
+.sidebarChatAdd{
+  display: grid;
+  place-items:center;
+  padding: 6px;
+  cursor: pointer;
+  border-bottom: 1 px solid ;
+  background-color: #dcf8c6;
+}
+.sidebarChatAdd:hover{
+    background-color: #ebebeb;
+}
+.sidebarChat__add>form>input{
+  border-radius: 20px;
+  height: 35px;
+  width: 200px;
+  text-align: center;
+  outline-width: 0px;
+  margin-right: auto;
+  border:none;
+}
+.sidebarChat__add>form>button{
+  display: none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}

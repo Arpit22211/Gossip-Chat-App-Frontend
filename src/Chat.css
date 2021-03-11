@@ -1,0 +1,121 @@
+.chat{
+  display: flex;
+  flex-direction: column;
+  flex: 0.70;
+}
+.chat__header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.chat__headerInfo{
+  flex:1;
+  padding-left: 20px;
+}
+.chat__headerInfo> h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.chat__headerInfo>p{
+  color:grey;
+}
+.chat__body{
+  flex:1;
+  background-image: url("https://i.redd.it/qwd83nc4xxf41.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: scroll;
+}
+.chat__message{
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.chat__reciever{
+margin-left: auto;
+background-color: #dcf8c6;
+}
+
+.chat__timestamp{
+  margin-left: 10px;
+  font-size: xx-small;
+}
+.chat__name{
+position: absolute;
+top:-15px;
+font-weight: 700;
+font-size: xx-small;
+}
+.chat__image{
+  object-fit: contain;
+  height:10vw;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.chat__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgrey;
+  padding: 10px;
+}
+.chat__footer>form{
+  display: flex;
+  flex: 1;
+}
+
+.chat__footer>form>input{
+  flex:1;
+  outline-width: 0;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+}
+.chat__footer__btn__none{
+  display:none;
+}
+.chat__footer__button{
+  border-radius: 15px;
+  background-color: lightgreen;
+  outline-width: none;
+  border: none;
+  color:grey;
+  width:80px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: auto;
+}
+.chat__footer> .MuiSvgIcon-root{
+  color: grey;
+  padding: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: lightblue;
+    color:grey;
+    width:80px;
+    font-weight: 300px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.chat__reciever__image{
+  margin-left: 50vw;
+}
